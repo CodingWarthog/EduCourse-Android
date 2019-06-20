@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+
+      tools:context="com.wojcik.educourse.flashcards.FlashcardsFieldActivity">
+
+    <item app:showAsAction="always"
+          android:title=""
+          android:icon="@drawable/ic_menu_black_24dp" android:id="@+id/menu_flashcard_field">
+        <menu>
+
+            <item android:id="@+id/addFlashcard"
+                  android:title="Dodaj fiszki"
+                  android:orderInCategory="100"
+                  app:showAsAction="ifRoom" android:icon="@drawable/ic_add_black_24dp"/>
+            <item android:id="@+id/editSet"
+                  android:title="Edytuj zestaw"
+                  android:orderInCategory="100"
+                  app:showAsAction="ifRoom" android:icon="@drawable/ic_edit_black_24dp"/>
+            <item android:id="@+id/editFlashcard"
+                  android:title="Edytuj obecną fiszkę"
+                  android:orderInCategory="100"
+                  app:showAsAction="ifRoom" android:icon="@drawable/ic_edit_black_24dp"/>
+            <item android:id="@+id/deleteFlashcard"
+                  android:title="Usuń obecną fiszkę"
+                  android:orderInCategory="100"
+                  app:showAsAction="never" android:icon="@drawable/ic_delete_black_24dp"/>
+            <item android:id="@+id/deleteFlashcardSet"
+                  android:title="Usuń zestaw"
+                  android:orderInCategory="100"
+                  app:showAsAction="ifRoom" android:icon="@drawable/ic_delete_forever_black_24dp"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4289C7</color>
+    <color name="colorPrimaryDark">#163FBC</color>
+    <color name="colorAccent">#567FFC</color>
+    <color name="colorSelectedButton">#FFFFFF</color>
+    <color name="colorSelectedAnswered">#D0B752</color>
+    <color name="flashcardFront">#4289C7</color>
+    <color name="flashcardBack">#9400D3</color>
+    <color name="flashcardEmpty">#B5BDBF</color>
+    <color name="menuBackground">#376093</color>
+
+
+    <color name="horizontalScrollView">#C6E5FF</color>
+    <color name="colorButton">#71BDFF</color>
+    <color name="colorDisabledButton">#B5BDBF</color>
+    <color name="quizBackground">#C6E5FF</color>
+    <color name="quizText">#333333</color>
+    <color name="buttonTextColor">#333333</color>
+    <color name="selectedButtonTextColor">#FFFFFF</color>
+    <color name="correctAnswerTextColor">#007700</color>
+    <color name="correctAnswerButtonColor">#55EE55</color>
+    <color name="wrongAnswerTextColor">#EE5555</color>
+    <color name="resultsQuiz">#FFFFFF</color>
+
+    <color name="flashcardBackground">#C6E5FF</color>
+
+
+    <color name="tabIndicator">#EDEDED</color>
+
+    <color name="titleBadge">#000000</color>
+    <color name="descriptionBadge">#222222</color>
+    <color name="backgroundBadge">#FDFDFD</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="infoCell">#FFFFFF</color>
+
+    <!--Results-->
+    <color name="headerBackground">#DBDBDB</color>
+    <color name="headerColor">#000000</color>
+    <color name="cellBackground">#FFFFFF</color>
+    <color name="cellColor">#222222</color>
+
+    <!--Flashcards Set Creator-->
+    <color name="setBackground">#C6E5FF</color>
+    <color name="setButton">#71BDFF</color>
+    <color name="setButtonText">#FFFFFF</color>
+
+    <color name="horizontalLine">#D6F5FF</color>
+
+
+    <!--Courses-->
+    <color name="selectedBtn">#71BDFF</color>
+    <color name="unselectedBtn">#91ADDF</color>
+
+
+</resources>

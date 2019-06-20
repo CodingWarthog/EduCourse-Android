@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EduCourse</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--Dialog-->
+    <string name="dialog_positive">Tak</string>
+    <string name="dialog_negative">Nie</string>
+    <!--//////////////////////////////////////////////////////////////////////////-->
+    <!--Profile-->
+
+    <!--//////////////////////////////////////////////////////////////////////////-->
+    <!--Flashcards-->
+
+    <!--FlashcardsCreator-->
+    <string name="flashcard_added">Dodano fiszkę</string>
+    <string name="flashcard_edited">Edytowano fiszkę</string>
+
+    <!--FlashcardsField-->
+    <string name="set_is_empty">Zestaw jest pusty</string>
+    <string name="no_flashcards">Brak fiszek</string>
+    <string name="delete_flashcard">Czy na pewno chcesz usunąć tę fiszkę?</string>
+    <string name="delete_set">Czy na pewno chcesz usunąć ten zestaw?</string>
+    <string name="set_deleted">Zestaw usunięty</string>
+    <string name="speak">Możesz mówić</string>
+    <!--FlashcardSetCreator-->
+    <string name="edit_set">Edytuj zestaw</string>
+    <string name="set_added">Dodano zestaw</string>
+    <string name="data_updated">Uaktualniono dane</string>
+
+    <string name="edit">Edytuj</string>
+    <string name="edit_current_flashcard">Edytuj obecną fiszkę</string>
+
+    <string name="points">Punkty</string>
+
+    <!--//////////////////////////////////////////////////////////////////////////-->
+    <!--Quizzes-->
+</resources>

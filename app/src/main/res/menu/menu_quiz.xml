@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.wojcik.educourse.flashcards.QuizzesActivity">
+    <item
+            android:id="@+id/quizzes_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            app:showAsAction="ifRoom"
+            android:layout_width="wrap_content"
+            android:title="Search" app:actionViewClass="android.widget.SearchView"/>
+
+    <item app:showAsAction="always"
+          android:title=""
+          android:icon="@drawable/ic_menu_black_24dp" android:id="@+id/menu_courses">
+
+        <menu>
+            <item android:id="@+id/quitCourse"
+                  android:title="Porzuć kurs"
+                  android:orderInCategory="100"
+                  app:showAsAction="ifRoom" android:icon="@drawable/ic_close_black_24dp"/>
+        </menu>
+
+    </item>
+
+</menu>

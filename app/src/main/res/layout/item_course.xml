@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" android:id="@+id/CourseView"
+                                    android:layout_margin="2dp">
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:background="@color/colorSelectedButton"
+                    android:id="@+id/card_relative" android:layout_marginBottom="1dp">
+
+        <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:padding="2dp"
+                android:id="@+id/course_image"
+                android:layout_marginTop="2dp" android:layout_marginStart="2dp" android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp" android:src="@drawable/course_logo"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:layout_alignParentTop="true"
+                  android:layout_toEndOf="@+id/course_image"
+                  android:textColor="@color/titleBadge"
+                  android:id="@+id/courseName" android:layout_marginTop="2dp" android:layout_marginStart="2dp"
+                  android:layout_marginEnd="2dp" android:layout_marginBottom="2dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:layout_toEndOf="@+id/course_image"
+                  android:layout_below="@+id/courseName"
+                  android:id="@+id/courseDescription"
+                  android:textColor="@color/buttonTextColor"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:layout_toEndOf="@+id/course_image"
+                  android:layout_below="@+id/courseDescription"
+                  android:id="@+id/courseOther"
+                  android:textColor="@color/buttonTextColor"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

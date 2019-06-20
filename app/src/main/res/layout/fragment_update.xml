@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".profile.UpdateFragment" android:id="@+id/fragment_update">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+            <TextView
+                    android:text="Edytuj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/editTitle" android:gravity="center"
+                    android:textStyle="bold" android:textSize="24sp" android:layout_marginBottom="6dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/nameTxt" android:hint="Imię" android:textColor="@android:color/black"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/surnameTxt" android:hint="Nazwisko"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/usernameTxt" android:hint="Nazwa użytkownika"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/emailTxt" android:hint="Adres Email"/>
+
+
+            <Button
+                    android:text="Zatwierdź"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/confirmButton"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@color/colorButton" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:textColor="@color/colorSelectedButton" android:layout_marginTop="24dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

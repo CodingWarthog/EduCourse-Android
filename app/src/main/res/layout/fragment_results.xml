@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".profile.ResultsFragment" android:id="@+id/fragment_results">
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_margin="4dp" android:id="@+id/result_table"
+                    android:background="@color/headerBackground">
+
+                <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:background="@color/headerBackground" android:paddingTop="2dp"
+                          android:paddingBottom="2dp">
+                    <TextView
+                            android:text="Nazwa"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/textView7" android:textStyle="bold"
+                            android:gravity="center" android:background="@color/headerBackground"
+                            android:textColor="@color/headerColor" android:textSize="16sp"/>
+                    <TextView
+                            android:text="Ocena"
+                            android:layout_weight="0.8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/textView6" android:textStyle="bold"
+                            android:gravity="center" android:background="@color/headerBackground"
+                            android:textColor="@color/headerColor" android:textSize="16sp"/>
+                    <TextView
+                            android:text="Punkty"
+                            android:layout_weight="0.5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/textView3" android:textStyle="bold"
+                            android:gravity="center" android:background="@color/headerBackground"
+                            android:textColor="@color/headerColor" android:textSize="16sp"/>
+                </TableRow>
+            </TableLayout>
+
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
